@@ -4,7 +4,7 @@ public class Reservation {
 
     private Long id;
     private boolean checkedIn;
-    private int numberOfBags;
+    private int luggageQuantity;
     private Passenger passenger;
     private Flight flight;
 
@@ -24,12 +24,12 @@ public class Reservation {
         this.checkedIn = checkedIn;
     }
 
-    public int getNumberOfBags() {
-        return numberOfBags;
+    public int getLuggageQuantity() {
+        return luggageQuantity;
     }
 
-    public void setNumberOfBags(int numberOfBags) {
-        this.numberOfBags = numberOfBags;
+    public void setLuggageQuantity(int luggageQuantity) {
+        this.luggageQuantity = luggageQuantity;
     }
 
     public Passenger getPassenger() {

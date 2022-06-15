@@ -11,7 +11,7 @@ public class Flight {
     private String operatingAirlines;
     private String departureCity;
     private String arrivalCity;
-    private Date dateOfDeparture;
+    private Date departureDate;
     private Timestamp estimatedDepartureTime;
 
     public Long getId() {
@@ -54,12 +54,12 @@ public class Flight {
         this.arrivalCity = arrivalCity;
     }
 
-    public Date getDateOfDeparture() {
-        return dateOfDeparture;
+    public Date getDepartureDate() {
+        return departureDate;
     }
 
-    public void setDateOfDeparture(Date dateOfDeparture) {
-        this.dateOfDeparture = dateOfDeparture;
+    public void setDepartureDate(Date departureDate) {
+        this.departureDate = departureDate;
     }
 
     public Timestamp getEstimatedDepartureTime() {

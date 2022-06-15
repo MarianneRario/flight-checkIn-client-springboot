@@ -3,7 +3,7 @@ package com.rariom.flightcheckin.flightcheckin.integration.dto;
 public class ReservationUpdateRequest {
     private Long id;
     private boolean checkedIn;
-    private int numberOfBags;
+    private int luggageQuantity;
 
     public Long getId() {
         return id;
@@ -21,11 +21,11 @@ public class ReservationUpdateRequest {
         this.checkedIn = checkedIn;
     }
 
-    public int getNumberOfBags() {
-        return numberOfBags;
+    public int getLuggageQuantity() {
+        return luggageQuantity;
     }
 
-    public void setNumberOfBags(int numberOfBags) {
-        this.numberOfBags = numberOfBags;
+    public void setLuggageQuantity(int luggageQuantity) {
+        this.luggageQuantity = luggageQuantity;
     }
 }
